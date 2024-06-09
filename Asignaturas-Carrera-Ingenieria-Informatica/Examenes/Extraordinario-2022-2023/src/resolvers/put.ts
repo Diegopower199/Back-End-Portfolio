@@ -102,7 +102,6 @@ export const putUpdateEvent = async (context: PutUpdateEventContext) => {
       return;
     }
 
-    console.log(inicio < 0);
     if (inicio < 0) {
       context.response.body = {
         msg: "La hora de inicio no puede ser menor que 0",
